@@ -1,0 +1,4 @@
+framework module SpaceXKit {
+  header "SpaceXKit-Swift.h"
+  requires objc
+}

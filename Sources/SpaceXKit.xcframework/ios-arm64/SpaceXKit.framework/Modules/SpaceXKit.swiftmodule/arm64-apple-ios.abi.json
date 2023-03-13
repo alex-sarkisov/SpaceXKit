@@ -1,0 +1,1649 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpaceXKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Launch",
+        "printedName": "Launch",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SpaceXKit6LaunchV2idSSvp",
+            "mangledName": "$s9SpaceXKit6LaunchV2idSSvp",
+            "moduleName": "SpaceXKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SpaceXKit6LaunchV2idSSvg",
+                "mangledName": "$s9SpaceXKit6LaunchV2idSSvg",
+                "moduleName": "SpaceXKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SpaceXKit6LaunchV4nameSSvp",
+            "mangledName": "$s9SpaceXKit6LaunchV4nameSSvp",
+            "moduleName": "SpaceXKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SpaceXKit6LaunchV4nameSSvg",
+                "mangledName": "$s9SpaceXKit6LaunchV4nameSSvg",
+                "moduleName": "SpaceXKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "details",
+            "printedName": "details",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SpaceXKit6LaunchV7detailsSSSgvp",
+            "mangledName": "$s9SpaceXKit6LaunchV7detailsSSSgvp",
+            "moduleName": "SpaceXKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SpaceXKit6LaunchV7detailsSSSgvg",
+                "mangledName": "$s9SpaceXKit6LaunchV7detailsSSSgvg",
+                "moduleName": "SpaceXKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "flightNumber",
+            "printedName": "flightNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SpaceXKit6LaunchV12flightNumberSivp",
+            "mangledName": "$s9SpaceXKit6LaunchV12flightNumberSivp",
+            "moduleName": "SpaceXKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SpaceXKit6LaunchV12flightNumberSivg",
+                "mangledName": "$s9SpaceXKit6LaunchV12flightNumberSivg",
+                "moduleName": "SpaceXKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "links",
+            "printedName": "links",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Links",
+                "printedName": "SpaceXKit.Launch.Links",
+                "usr": "s:9SpaceXKit6LaunchV5LinksV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SpaceXKit6LaunchV5linksAC5LinksVvp",
+            "mangledName": "$s9SpaceXKit6LaunchV5linksAC5LinksVvp",
+            "moduleName": "SpaceXKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Links",
+                    "printedName": "SpaceXKit.Launch.Links",
+                    "usr": "s:9SpaceXKit6LaunchV5LinksV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SpaceXKit6LaunchV5linksAC5LinksVvg",
+                "mangledName": "$s9SpaceXKit6LaunchV5linksAC5LinksVvg",
+                "moduleName": "SpaceXKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Launch",
+                "printedName": "SpaceXKit.Launch",
+                "usr": "s:9SpaceXKit6LaunchV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9SpaceXKit6LaunchV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9SpaceXKit6LaunchV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SpaceXKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SpaceXKit6LaunchV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9SpaceXKit6LaunchV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SpaceXKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Links",
+            "printedName": "Links",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "patch",
+                "printedName": "patch",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Patch",
+                    "printedName": "SpaceXKit.Launch.Links.Patch",
+                    "usr": "s:9SpaceXKit6LaunchV5LinksV5PatchV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9SpaceXKit6LaunchV5LinksV5patchAE5PatchVvp",
+                "mangledName": "$s9SpaceXKit6LaunchV5LinksV5patchAE5PatchVvp",
+                "moduleName": "SpaceXKit",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Patch",
+                        "printedName": "SpaceXKit.Launch.Links.Patch",
+                        "usr": "s:9SpaceXKit6LaunchV5LinksV5PatchV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SpaceXKit6LaunchV5LinksV5patchAE5PatchVvg",
+                    "mangledName": "$s9SpaceXKit6LaunchV5LinksV5patchAE5PatchVvg",
+                    "moduleName": "SpaceXKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "reddit",
+                "printedName": "reddit",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Reddit",
+                    "printedName": "SpaceXKit.Launch.Links.Reddit",
+                    "usr": "s:9SpaceXKit6LaunchV5LinksV6RedditV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9SpaceXKit6LaunchV5LinksV6redditAE6RedditVvp",
+                "mangledName": "$s9SpaceXKit6LaunchV5LinksV6redditAE6RedditVvp",
+                "moduleName": "SpaceXKit",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Reddit",
+                        "printedName": "SpaceXKit.Launch.Links.Reddit",
+                        "usr": "s:9SpaceXKit6LaunchV5LinksV6RedditV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SpaceXKit6LaunchV5LinksV6redditAE6RedditVvg",
+                    "mangledName": "$s9SpaceXKit6LaunchV5LinksV6redditAE6RedditVvg",
+                    "moduleName": "SpaceXKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Links",
+                    "printedName": "SpaceXKit.Launch.Links",
+                    "usr": "s:9SpaceXKit6LaunchV5LinksV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9SpaceXKit6LaunchV5LinksV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s9SpaceXKit6LaunchV5LinksV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "SpaceXKit",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9SpaceXKit6LaunchV5LinksV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s9SpaceXKit6LaunchV5LinksV6encode2toys7Encoder_p_tKF",
+                "moduleName": "SpaceXKit",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "Patch",
+                "printedName": "Patch",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "small",
+                    "printedName": "small",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:9SpaceXKit6LaunchV5LinksV5PatchV5smallSSvp",
+                    "mangledName": "$s9SpaceXKit6LaunchV5LinksV5PatchV5smallSSvp",
+                    "moduleName": "SpaceXKit",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:9SpaceXKit6LaunchV5LinksV5PatchV5smallSSvg",
+                        "mangledName": "$s9SpaceXKit6LaunchV5LinksV5PatchV5smallSSvg",
+                        "moduleName": "SpaceXKit",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "large",
+                    "printedName": "large",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:9SpaceXKit6LaunchV5LinksV5PatchV5largeSSvp",
+                    "mangledName": "$s9SpaceXKit6LaunchV5LinksV5PatchV5largeSSvp",
+                    "moduleName": "SpaceXKit",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:9SpaceXKit6LaunchV5LinksV5PatchV5largeSSvg",
+                        "mangledName": "$s9SpaceXKit6LaunchV5LinksV5PatchV5largeSSvg",
+                        "moduleName": "SpaceXKit",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(from:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Patch",
+                        "printedName": "SpaceXKit.Launch.Links.Patch",
+                        "usr": "s:9SpaceXKit6LaunchV5LinksV5PatchV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Decoder",
+                        "printedName": "Swift.Decoder",
+                        "usr": "s:s7DecoderP"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:9SpaceXKit6LaunchV5LinksV5PatchV4fromAGs7Decoder_p_tKcfc",
+                    "mangledName": "$s9SpaceXKit6LaunchV5LinksV5PatchV4fromAGs7Decoder_p_tKcfc",
+                    "moduleName": "SpaceXKit",
+                    "implicit": true,
+                    "throwing": true,
+                    "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "encode",
+                    "printedName": "encode(to:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encoder",
+                        "printedName": "Swift.Encoder",
+                        "usr": "s:s7EncoderP"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:9SpaceXKit6LaunchV5LinksV5PatchV6encode2toys7Encoder_p_tKF",
+                    "mangledName": "$s9SpaceXKit6LaunchV5LinksV5PatchV6encode2toys7Encoder_p_tKF",
+                    "moduleName": "SpaceXKit",
+                    "implicit": true,
+                    "throwing": true,
+                    "funcSelfKind": "NonMutating"
+                  }
+                ],
+                "declKind": "Struct",
+                "usr": "s:9SpaceXKit6LaunchV5LinksV5PatchV",
+                "mangledName": "$s9SpaceXKit6LaunchV5LinksV5PatchV",
+                "moduleName": "SpaceXKit",
+                "isFromExtension": true,
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Decodable",
+                    "printedName": "Decodable",
+                    "usr": "s:Se",
+                    "mangledName": "$sSe"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Encodable",
+                    "printedName": "Encodable",
+                    "usr": "s:SE",
+                    "mangledName": "$sSE"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "Reddit",
+                "printedName": "Reddit",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "launch",
+                    "printedName": "launch",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:9SpaceXKit6LaunchV5LinksV6RedditV6launchSSSgvp",
+                    "mangledName": "$s9SpaceXKit6LaunchV5LinksV6RedditV6launchSSSgvp",
+                    "moduleName": "SpaceXKit",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:9SpaceXKit6LaunchV5LinksV6RedditV6launchSSSgvg",
+                        "mangledName": "$s9SpaceXKit6LaunchV5LinksV6RedditV6launchSSSgvg",
+                        "moduleName": "SpaceXKit",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(from:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Reddit",
+                        "printedName": "SpaceXKit.Launch.Links.Reddit",
+                        "usr": "s:9SpaceXKit6LaunchV5LinksV6RedditV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Decoder",
+                        "printedName": "Swift.Decoder",
+                        "usr": "s:s7DecoderP"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:9SpaceXKit6LaunchV5LinksV6RedditV4fromAGs7Decoder_p_tKcfc",
+                    "mangledName": "$s9SpaceXKit6LaunchV5LinksV6RedditV4fromAGs7Decoder_p_tKcfc",
+                    "moduleName": "SpaceXKit",
+                    "implicit": true,
+                    "throwing": true,
+                    "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "encode",
+                    "printedName": "encode(to:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encoder",
+                        "printedName": "Swift.Encoder",
+                        "usr": "s:s7EncoderP"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:9SpaceXKit6LaunchV5LinksV6RedditV6encode2toys7Encoder_p_tKF",
+                    "mangledName": "$s9SpaceXKit6LaunchV5LinksV6RedditV6encode2toys7Encoder_p_tKF",
+                    "moduleName": "SpaceXKit",
+                    "implicit": true,
+                    "throwing": true,
+                    "funcSelfKind": "NonMutating"
+                  }
+                ],
+                "declKind": "Struct",
+                "usr": "s:9SpaceXKit6LaunchV5LinksV6RedditV",
+                "mangledName": "$s9SpaceXKit6LaunchV5LinksV6RedditV",
+                "moduleName": "SpaceXKit",
+                "isFromExtension": true,
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Decodable",
+                    "printedName": "Decodable",
+                    "usr": "s:Se",
+                    "mangledName": "$sSe"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Encodable",
+                    "printedName": "Encodable",
+                    "usr": "s:SE",
+                    "mangledName": "$sSE"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:9SpaceXKit6LaunchV5LinksV",
+            "mangledName": "$s9SpaceXKit6LaunchV5LinksV",
+            "moduleName": "SpaceXKit",
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9SpaceXKit6LaunchV",
+        "mangledName": "$s9SpaceXKit6LaunchV",
+        "moduleName": "SpaceXKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpaceXKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaginatedLaunches",
+        "printedName": "PaginatedLaunches",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "launches",
+            "printedName": "launches",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SpaceXKit.Launch]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Launch",
+                    "printedName": "SpaceXKit.Launch",
+                    "usr": "s:9SpaceXKit6LaunchV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SpaceXKit17PaginatedLaunchesV8launchesSayAA6LaunchVGvp",
+            "mangledName": "$s9SpaceXKit17PaginatedLaunchesV8launchesSayAA6LaunchVGvp",
+            "moduleName": "SpaceXKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SpaceXKit.Launch]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Launch",
+                        "printedName": "SpaceXKit.Launch",
+                        "usr": "s:9SpaceXKit6LaunchV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SpaceXKit17PaginatedLaunchesV8launchesSayAA6LaunchVGvg",
+                "mangledName": "$s9SpaceXKit17PaginatedLaunchesV8launchesSayAA6LaunchVGvg",
+                "moduleName": "SpaceXKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "total",
+            "printedName": "total",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SpaceXKit17PaginatedLaunchesV5totalSivp",
+            "mangledName": "$s9SpaceXKit17PaginatedLaunchesV5totalSivp",
+            "moduleName": "SpaceXKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SpaceXKit17PaginatedLaunchesV5totalSivg",
+                "mangledName": "$s9SpaceXKit17PaginatedLaunchesV5totalSivg",
+                "moduleName": "SpaceXKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalPages",
+            "printedName": "totalPages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SpaceXKit17PaginatedLaunchesV10totalPagesSivp",
+            "mangledName": "$s9SpaceXKit17PaginatedLaunchesV10totalPagesSivp",
+            "moduleName": "SpaceXKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SpaceXKit17PaginatedLaunchesV10totalPagesSivg",
+                "mangledName": "$s9SpaceXKit17PaginatedLaunchesV10totalPagesSivg",
+                "moduleName": "SpaceXKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "size",
+            "printedName": "size",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SpaceXKit17PaginatedLaunchesV4sizeSivp",
+            "mangledName": "$s9SpaceXKit17PaginatedLaunchesV4sizeSivp",
+            "moduleName": "SpaceXKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SpaceXKit17PaginatedLaunchesV4sizeSivg",
+                "mangledName": "$s9SpaceXKit17PaginatedLaunchesV4sizeSivg",
+                "moduleName": "SpaceXKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "page",
+            "printedName": "page",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SpaceXKit17PaginatedLaunchesV4pageSivp",
+            "mangledName": "$s9SpaceXKit17PaginatedLaunchesV4pageSivp",
+            "moduleName": "SpaceXKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SpaceXKit17PaginatedLaunchesV4pageSivg",
+                "mangledName": "$s9SpaceXKit17PaginatedLaunchesV4pageSivg",
+                "moduleName": "SpaceXKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "numberOfPages",
+            "printedName": "numberOfPages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SpaceXKit17PaginatedLaunchesV13numberOfPagesSivp",
+            "mangledName": "$s9SpaceXKit17PaginatedLaunchesV13numberOfPagesSivp",
+            "moduleName": "SpaceXKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SpaceXKit17PaginatedLaunchesV13numberOfPagesSivg",
+                "mangledName": "$s9SpaceXKit17PaginatedLaunchesV13numberOfPagesSivg",
+                "moduleName": "SpaceXKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasPreviousPage",
+            "printedName": "hasPreviousPage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SpaceXKit17PaginatedLaunchesV15hasPreviousPageSbvp",
+            "mangledName": "$s9SpaceXKit17PaginatedLaunchesV15hasPreviousPageSbvp",
+            "moduleName": "SpaceXKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SpaceXKit17PaginatedLaunchesV15hasPreviousPageSbvg",
+                "mangledName": "$s9SpaceXKit17PaginatedLaunchesV15hasPreviousPageSbvg",
+                "moduleName": "SpaceXKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasNextPage",
+            "printedName": "hasNextPage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SpaceXKit17PaginatedLaunchesV11hasNextPageSbvp",
+            "mangledName": "$s9SpaceXKit17PaginatedLaunchesV11hasNextPageSbvp",
+            "moduleName": "SpaceXKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SpaceXKit17PaginatedLaunchesV11hasNextPageSbvg",
+                "mangledName": "$s9SpaceXKit17PaginatedLaunchesV11hasNextPageSbvg",
+                "moduleName": "SpaceXKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previousPage",
+            "printedName": "previousPage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SpaceXKit17PaginatedLaunchesV12previousPageSiSgvp",
+            "mangledName": "$s9SpaceXKit17PaginatedLaunchesV12previousPageSiSgvp",
+            "moduleName": "SpaceXKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SpaceXKit17PaginatedLaunchesV12previousPageSiSgvg",
+                "mangledName": "$s9SpaceXKit17PaginatedLaunchesV12previousPageSiSgvg",
+                "moduleName": "SpaceXKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nextPage",
+            "printedName": "nextPage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SpaceXKit17PaginatedLaunchesV8nextPageSiSgvp",
+            "mangledName": "$s9SpaceXKit17PaginatedLaunchesV8nextPageSiSgvp",
+            "moduleName": "SpaceXKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SpaceXKit17PaginatedLaunchesV8nextPageSiSgvg",
+                "mangledName": "$s9SpaceXKit17PaginatedLaunchesV8nextPageSiSgvg",
+                "moduleName": "SpaceXKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaginatedLaunches",
+                "printedName": "SpaceXKit.PaginatedLaunches",
+                "usr": "s:9SpaceXKit17PaginatedLaunchesV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9SpaceXKit17PaginatedLaunchesV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9SpaceXKit17PaginatedLaunchesV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SpaceXKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SpaceXKit17PaginatedLaunchesV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9SpaceXKit17PaginatedLaunchesV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SpaceXKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9SpaceXKit17PaginatedLaunchesV",
+        "mangledName": "$s9SpaceXKit17PaginatedLaunchesV",
+        "moduleName": "SpaceXKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpaceXKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SpaceX",
+        "printedName": "SpaceX",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SpaceX",
+                "printedName": "SpaceXKit.SpaceX",
+                "usr": "s:9SpaceXKit0A1XC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SpaceXKit0A1XC6sharedACvpZ",
+            "mangledName": "$s9SpaceXKit0A1XC6sharedACvpZ",
+            "moduleName": "SpaceXKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SpaceX",
+                    "printedName": "SpaceXKit.SpaceX",
+                    "usr": "s:9SpaceXKit0A1XC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SpaceXKit0A1XC6sharedACvgZ",
+                "mangledName": "$s9SpaceXKit0A1XC6sharedACvgZ",
+                "moduleName": "SpaceXKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "paginatedLaunches",
+            "printedName": "paginatedLaunches(searchQuery:page:size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaginatedLaunches",
+                "printedName": "SpaceXKit.PaginatedLaunches",
+                "usr": "s:9SpaceXKit17PaginatedLaunchesV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SpaceXKit0A1XC17paginatedLaunches11searchQuery4page4sizeAA09PaginatedD0VSSSg_S2itYaKF",
+            "mangledName": "$s9SpaceXKit0A1XC17paginatedLaunches11searchQuery4page4sizeAA09PaginatedD0VSSSg_S2itYaKF",
+            "moduleName": "SpaceXKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9SpaceXKit0A1XC",
+        "mangledName": "$s9SpaceXKit0A1XC",
+        "moduleName": "SpaceXKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpaceXKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/alex\/Git\/SpaceXKit\/SpaceXKit\/Models\/Launch.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 15,
+      "value": "\"flight_number\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Git\/SpaceXKit\/SpaceXKit\/Models\/Launch.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 15,
+      "value": "\"flight_number\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Git\/SpaceXKit\/SpaceXKit\/Models\/PaginatedLaunches.swift",
+      "kind": "StringLiteral",
+      "offset": 532,
+      "length": 6,
+      "value": "\"docs\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Git\/SpaceXKit\/SpaceXKit\/Models\/PaginatedLaunches.swift",
+      "kind": "StringLiteral",
+      "offset": 560,
+      "length": 11,
+      "value": "\"totalDocs\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Git\/SpaceXKit\/SpaceXKit\/Models\/PaginatedLaunches.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 7,
+      "value": "\"limit\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Git\/SpaceXKit\/SpaceXKit\/Models\/PaginatedLaunches.swift",
+      "kind": "StringLiteral",
+      "offset": 671,
+      "length": 15,
+      "value": "\"pagingCounter\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Git\/SpaceXKit\/SpaceXKit\/Models\/PaginatedLaunches.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
+      "length": 13,
+      "value": "\"hasPrevPage\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Git\/SpaceXKit\/SpaceXKit\/Models\/PaginatedLaunches.swift",
+      "kind": "StringLiteral",
+      "offset": 785,
+      "length": 10,
+      "value": "\"prevPage\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Git\/SpaceXKit\/SpaceXKit\/Models\/PaginatedLaunches.swift",
+      "kind": "StringLiteral",
+      "offset": 532,
+      "length": 6,
+      "value": "\"docs\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Git\/SpaceXKit\/SpaceXKit\/Models\/PaginatedLaunches.swift",
+      "kind": "StringLiteral",
+      "offset": 560,
+      "length": 11,
+      "value": "\"totalDocs\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Git\/SpaceXKit\/SpaceXKit\/Models\/PaginatedLaunches.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 7,
+      "value": "\"limit\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Git\/SpaceXKit\/SpaceXKit\/Models\/PaginatedLaunches.swift",
+      "kind": "StringLiteral",
+      "offset": 671,
+      "length": 15,
+      "value": "\"pagingCounter\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Git\/SpaceXKit\/SpaceXKit\/Models\/PaginatedLaunches.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
+      "length": 13,
+      "value": "\"hasPrevPage\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Git\/SpaceXKit\/SpaceXKit\/Models\/PaginatedLaunches.swift",
+      "kind": "StringLiteral",
+      "offset": 785,
+      "length": 10,
+      "value": "\"prevPage\""
+    },
+    {
+      "filePath": "\/Users\/alex\/Git\/SpaceXKit\/SpaceXKit\/SpaceX.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1030,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alex\/Git\/SpaceXKit\/SpaceXKit\/SpaceX.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1079,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/alex\/Git\/SpaceXKit\/SpaceXKit\/SpaceX.swift",
+      "kind": "StringLiteral",
+      "offset": 1879,
+      "length": 46,
+      "value": "\"https:\/\/api.spacexdata.com\/v4\/launches\/query\""
+    }
+  ]
+}
